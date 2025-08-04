@@ -1,4 +1,7 @@
 # Real-Time-Stock-Price-Prediction-App
+
+![stock movement image](templates/stocks.jpg)
+
 A HTML-powered Stock Price Prediction App leveraging LSTM networks to forecast market trends using historical financial data
 Predict stock prices **in real-time** using deep learning and visualize market trends with dynamic, interactive dashboards — all through a beautiful, intuitive web interface powered by Flask, TensorFlow, YFinance, Plotly, and Matplotlib.
 
