@@ -18,6 +18,9 @@ model = load_model('stock_dl_model.h5')
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
+        # Ensure 'static' directory exists
+        if not os.path.exists('static'):
+            os.makedirs('static')
         stock = request.form.get('stock')
         if not stock:
             stock = 'POWERGRIND.NS'  #Default stock if none is entered
